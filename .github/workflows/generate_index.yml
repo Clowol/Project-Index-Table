@@ -1,0 +1,37 @@
+name: Auto Generate Index
+
+on:
+  push:
+    branches:
+      - main                         # 当推送到 main 分支时触发
+    paths:
+      - 'docs/**/*.md'               # 只有 docs 下的 .md 文件变化时才触发（避免无关触发）
+      - 'scripts/generate_index.py'  # 脚本本身变化也要触发
+
+permissions:
+  contents: write     # 允许 actions 向仓库写入（提交）
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 获取完整历史，方便后续提交
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run index generator
+        run: python scripts/generate_index.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add INDEX.md docs/*/README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: auto update index files"
+          git push
