@@ -1,7 +1,7 @@
 # 知识库总索引
 
 > 此文件由脚本自动生成，列出所有已收录的硬件/软件条目。
-> 最后更新：2026-04-16 06:21:47
+> 最后更新：2026-04-16 06:53:18
 
 ## 分类目录
 
@@ -9,6 +9,11 @@
 *传感器（IMU、温湿度、距离、电流等）*
 
 *暂无条目*
+
+### 04 Hardware Power
+*电源管理（LDO、DCDC、充电保护等）*
+
+- [线规（Wire Gauge）笔记](./04_hardware_power/wire_gauge.md)
 
 ### 08 Software Dev Tools
 *开发工具（Git、Docker、VS Code、CMake）*
