@@ -5,7 +5,7 @@
 ## 已收录条目
 
 - [Communication Basics_通信方式基础](./communication_basics.md)
-- [通信方式笔记（单片机/机械臂/机器人）](./communication_overview.md)
+- [communication_overview: 通信方式笔记](./communication_overview.md)
 
 ---
 
