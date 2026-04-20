@@ -1,7 +1,7 @@
 # 知识库总索引
 
 > 此文件由脚本自动生成，列出所有已收录的硬件/软件条目。
-> 最后更新：2026-04-20 06:23:18
+> 最后更新：2026-04-20 07:12:49
 
 ## 分类目录
 
@@ -20,6 +20,7 @@
 
 - [Communication Basics_通信方式基础](./05_hardware_communication/communication_basics.md)
 - [communication_overview: 通信方式笔记](./05_hardware_communication/communication_overview.md)
+- [UART 详细手册](./05_hardware_communication/uart_detail.md)
 
 ### 08 Software Dev Tools
 *开发工具（Git、Docker、VS Code、CMake）*

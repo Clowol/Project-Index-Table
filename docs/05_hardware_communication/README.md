@@ -6,6 +6,7 @@
 
 - [Communication Basics_通信方式基础](./communication_basics.md)
 - [communication_overview: 通信方式笔记](./communication_overview.md)
+- [UART 详细手册](./uart_detail.md)
 
 ---
 
