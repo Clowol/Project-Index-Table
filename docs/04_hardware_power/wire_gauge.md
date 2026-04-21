@@ -34,8 +34,12 @@
 >&emsp;载流量与线材材质（纯铜、铜包铝）、绝缘耐温、线长、散热条件有关。上表是**短距离（<1m）、单根、空气中、PVC绝缘**的大概值。
 >&emsp;保险起见，按表中数值的 70-80% 使用更安全。
 
-以上参考了CSDN博主[WindChimes](https://blog.csdn.net/Britripe/article/details/105264681)的作品
+
+## - 以上参考了CSDN博主[WindChimes](https://blog.csdn.net/Britripe/article/details/105264681)的作品
+
+
 <img src="../../assets/images/wire_gauge_1.png" alt="AWG对照表"  style="width: 50%;"/>
+
 <img src="../../assets/images/wire_gauge_2.png" alt="AWG对照表"  style="width: 50%;"/>
 <!-- ![AWG对照表](../../assets/images/wire_gauge%20_2.png) -->
 
